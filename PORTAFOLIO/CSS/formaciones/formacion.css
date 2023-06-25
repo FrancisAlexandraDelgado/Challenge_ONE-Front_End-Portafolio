@@ -1,0 +1,50 @@
+.formacion__cuadro{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+   
+}
+
+.formacion{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 200px;
+    margin-top: 2rem;
+}s
+
+
+.formacion__contenido{
+    padding: 1rem;
+    font-size:1rem ;
+    line-height: 1.5;
+    padding: 1rem;
+    
+    
+}
+
+.formacion__titulo{
+    text-align: center;
+    color:#3d1661;
+    font-weight: 700;
+    font-family:Inter, sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-top: 1rem;
+    
+   
+}
+
+.formacion__anios{
+    text-align: center;
+    color:#3d1661;
+    font-family:Inter, sans-serif;;
+    font-size: 1rem;
+    margin-top: 1rem;
+   
+}

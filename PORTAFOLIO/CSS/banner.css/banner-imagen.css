@@ -1,0 +1,24 @@
+.banner__imagen{
+    
+    direction: flex;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.yo{
+    background-image: url(../../img/Fotografia.jpg);
+}
+
+@media screen and (max-width:768px) {
+    .banner__imagen{
+        width: 200px;
+        height: 200px;
+        margin-left: 3rem;
+        
+    }
+}

@@ -1,0 +1,38 @@
+.sobre{
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #e7ddf8;
+}
+
+.sobre__titulo{
+    text-align: center;
+    color:#3d1661;
+    font-weight: 700;
+    font-family:Inter, sans-serif;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    margin-top: 0;
+
+
+}
+
+.sobre__parrafo{
+    color:#4a484d;
+    font-family:Inter, sans-serif;
+    font-size: 1rem;
+    margin: 1.5rem;
+    line-height: 1.5rem;
+    padding:3rem;
+    padding-top: 0;
+}
+
+
+@media screen  and (min-width:0){
+    .sobre{
+        padding: 2.5rem 1rem;
+    }
+  }
+@media screen  and (min-width:768px){
+    .sobre{
+        padding: 2.5rem;
+    }
+  }

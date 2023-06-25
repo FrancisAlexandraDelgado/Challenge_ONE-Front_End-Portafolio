@@ -1,0 +1,14 @@
+.contactos{
+    background-color:#e7ddf8;
+    padding: 1rem 3rem 1rem 3rem;
+}
+    
+
+.contactos__titulo{
+    text-align: center;
+    color:#3d1661;
+    font-weight: 700;
+    font-family:Moserrat, sans-serif;
+    font-size: 1.5rem;
+    margin: 1.5rem
+}

@@ -1,0 +1,48 @@
+.menu__lista {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 3rem 1rem 3rem;
+    
+}
+
+.menu__item{
+    list-style: none;
+    
+}
+
+.menu__link{
+    color:#3d1661;
+    font-family: Inter,  sans-serif;
+    margin-right: .5rem;
+    text-decoration: none;
+    margin:1rem;
+    
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+}
+
+.activo{
+   font-weight: bold;
+
+}
+
+@media screen  and (max-width: 1024px){
+    .menu__item{
+       display: none;
+        
+       
+    }
+
+    .activo{
+       display:block;
+      width: fit-content;
+
+    }
+
+    .menu__lista{
+        margin-left: 0;
+    }
+}
+   

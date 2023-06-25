@@ -1,0 +1,69 @@
+.banner{
+    display: flex;
+    background-color: #F5F5F5;
+    padding: 3rem;
+}
+.banner_cuadro{
+   display: flex;
+   flex-direction: column;
+   width: fit-content;
+}
+
+.banner__titulo{
+    color:#3d1661;
+    font-family:Inter, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1.5rem;
+        
+    
+}
+.banner__descripcion{
+    color:#4a484d;
+    font-family:Inter, sans-serif;
+    font-size: 1rem;
+    padding: 1.5rem;
+    line-height: 1.5rem;
+}
+.banner_enlaces{
+    width: 60%;
+    
+}
+.banner__lista{
+    display: flex;
+    justify-content: space-between;
+}
+                                
+.banner__item{
+    list-style: none;
+    font-family:Inter, sans-serif;
+   
+}
+                    
+                    
+.banner__link{
+    color:#3d1661;
+    margin: 1.5rem;
+    text-decoration: none; 
+}
+    
+.banner__link:hover{
+        text-decoration: underline;
+        font-weight: bold
+    
+}
+    
+@media screen and (max-width:768px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner__lista{
+        flex-direction: column;
+        line-height: 1.5rem;
+    }
+        
+    
+}
+
+

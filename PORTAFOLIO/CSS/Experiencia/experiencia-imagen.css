@@ -1,0 +1,10 @@
+.experiencia__imagen{
+    width: 500px;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .experiencia__imagen{
+        width: 100%;
+    }
+}

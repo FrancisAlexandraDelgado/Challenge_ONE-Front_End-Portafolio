@@ -1,0 +1,65 @@
+.contacto__mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: #9b7272;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.contacto__mensaje-activo {
+	display: block;
+}
+
+.contacto__mensaje p {
+	margin: 0;
+}
+
+.contacto__input-error{
+    color:#bb2929;
+    font-size: small;
+    font-weight: bold;
+    font-family: Inter, cursive;
+    width: 400px;
+    text-align: right;
+    margin-left: 1rem;
+    display:none;
+}
+
+.contacto__input-error-activo {
+	display: block;
+}
+
+.contacto__grupo-correcto .contacto__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.contacto__grupo-incorrecto .contacto__label {
+	color: #bb2929;
+}
+
+.contacto__grupo-incorrecto .contacto__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.contacto__grupo-incorrecto .contacto__input {
+	border: 3px solid #bb2929;
+}
+
+@media screen and (max-width:400px) {
+    .contacto__input-error{
+        width: 200px;
+        
+    }   
+
+}
+
+@media screen and (max-width:526px) {
+
+    .contacto__input-error{
+        width: 250px;
+    }
+    
+}
